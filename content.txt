@@ -1,0 +1,12 @@
+Tech Stack:
+
+Git
+PHP
+MySQL
+HTML5
+CSS3
+Foundational JS
+Bootstrap
+
+Goals - Get confident in JS
+    - Add node and react to stack
