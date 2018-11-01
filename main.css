@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-/* global styling */
+/* Global  */
 
 html, body {
     height: 100%;
@@ -9,15 +9,23 @@ html, body {
     color: #222;
 }
 
-/* navbar */
+/* Navbar */
 
 .navbar {
     padding: .7rem;
     position: fixed;
     top: 0;
-    width: 100%; 
+    width: 100%;
+    background-color: #17a2b8;
+    color: white;
 }
 
+.nav-link, .nav-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ 
 .navbar-nav li {
     padding-right: 50px;
     padding-left: 50px;
@@ -28,6 +36,12 @@ html, body {
 }
 
 /* Welcome */
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 .padding {
     padding-bottom: 2rem;
@@ -51,19 +65,20 @@ html, body {
     color: rgb(236, 234, 234);
 }
 
-/* Styling for Font Awesome Icons */
+/* Font Awesome Icons */
+
 .fa-user-graduate, .fa-briefcase, .fa-wrench {
-    color: #5bc0de;
+    color: #17a2b8;
     font-size: 1.75rem;
     margin: 1rem;
 }
 
-/* adding a grow animation */
+/* Grow Animation */
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.5); }
 
-/* Styling for Tech Stack Dropdown */
+/* Tech Stack Dropdown */
 
 .techstack {
     width: 100%;
@@ -74,6 +89,18 @@ html, body {
     max-width: 100%;
     font-size: 2.5rem;
 
+}
+
+/* Footer */
+
+footer {
+    background-color: #17a2b8;
+    color: white;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid white;
 }
 
 /* Styling for Pace.js
