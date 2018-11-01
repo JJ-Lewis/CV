@@ -103,6 +103,19 @@ hr.light {
     border-top: 1px solid white;
 }
 
+.fa-phone, .fa-envelope, .fa-comment-alt {
+    font-size: 2em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 /* Styling for Pace.js
 
 .pace {
