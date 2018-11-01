@@ -24,18 +24,45 @@ html, body {
     font-size: 1.3em !important;
 }
 
-/* custom padding */
+/* Welcome */
 
 .padding {
     padding-bottom: 2rem;
 }
 
-.greet {
+.welcome {
     padding-top: 1.5rem;
 }
 
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+}
 
-/* Styling for Pace.js */
+.splash {
+    width: 75% !important;
+}
+
+/* Styling for Font Awesome Icons */
+.fa-user-graduate, .fa-briefcase, .fa-wrench {
+    color: #5bc0de;
+    font-size: 1.75rem;
+    margin: 1rem;
+}
+
+/* Styling for Tech Stack Dropdown */
+
+.techstack {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.stackicon {
+    max-width: 100%;
+    font-size: 2.5rem;
+
+}
+
+/* Styling for Pace.js
 
 .pace {
     -webkit-pointer-events: none;
@@ -77,9 +104,9 @@ html, body {
     color: rgba(0, 0, 0, 0.19999999999999996);
   }
 
-  /* Pace.js settings */
+  /* Pace.js settings (for making page blank before load in */
 
-  body > :not(.pace),body:before,body:after {
+  /* body > :not(.pace),body:before,body:after {
     -webkit-transition:opacity .4s ease-in-out;
     -moz-transition:opacity .4s ease-in-out;
     -o-transition:opacity .4s ease-in-out;
@@ -89,13 +116,15 @@ html, body {
   
   body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-done):after {
     opacity:0
-  }
+  } */
+
+  /* if pace.js isnt loaded, make the page appear as normal */
   
-  .pace-running > :not(.pace) {
+ /* .pace-running > :not(.pace) {
     opacity: 0;
   }
   
   .pace-done > :not(.pace) {
     opacity: 1;
     transition: opacity .5s ease;
-  }
+  } */
