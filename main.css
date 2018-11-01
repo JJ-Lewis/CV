@@ -13,6 +13,9 @@ html, body {
 
 .navbar {
     padding: .7rem;
+    position: fixed;
+    top: 0;
+    width: 100%; 
 }
 
 .navbar-nav li {
@@ -38,8 +41,14 @@ html, body {
     border-top: 2px solid #b4b4b4;
 }
 
-.splash {
-    width: 75% !important;
+.welcome h1 {
+    padding-top: 5rem;
+}
+
+
+.welcome hr {
+    width: 50%;
+    color: rgb(236, 234, 234);
 }
 
 /* Styling for Font Awesome Icons */
@@ -48,6 +57,11 @@ html, body {
     font-size: 1.75rem;
     margin: 1rem;
 }
+
+/* adding a grow animation */
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.5); }
 
 /* Styling for Tech Stack Dropdown */
 
