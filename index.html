@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <title>LEWIS JAMES CV</title>
@@ -25,16 +23,16 @@
             <div class = "collapse navbar-collapse justify-content-center" id = "navbarMenu">
                 <ul class = "navbar-nav ">
                     <li class = "nav-item">
-                        <a href="#" class = "nav-link">About Me</a>
+                        <a href="#welcome" class = "nav-link">About Me</a>
                     </li>
                     <li class = "nav-item">
-                        <a href="#" class = "nav-link">Experience and Skills</a>
+                        <a href="#experience" class = "nav-link">Experience and Skills</a>
                     </li>
                     <li class = "nav-item">
-                        <a href="#" class = "nav-link">Portfolio</a>
+                        <a href="#portfolio" class = "nav-link">Portfolio</a>
                     </li>
                     <li class = "nav-item">
-                        <a href="#" class = "nav-link">Contact</a>
+                        <a href="#footer" class = "nav-link" id = "footera">Contact</a>
                     </li>
                 </ul>
             </div> 
@@ -46,7 +44,7 @@
     <!-- Splash Page-->
 
     <div class="container-fluid padding">
-        <div class="row padding text-center welcome">
+        <div class="row padding text-center welcome" id = "welcome">
             <div class = "col-12">
                 <h1 class = "display-4">Hi, I'm James!</h1> 
                 <hr class = "my-4">
@@ -54,10 +52,10 @@
         </div>
         <div class="row vertical-align padding">
             <div class="col-md-6">
-                <h3>About Me...</h3>
-                <p>Opening Statement</p>
-                <p>Mid Statement</p>
-                <p>Conclusion</p>
+                <h3>About Me</h3>
+                <p>A passionate individual specializing in full-stack development.</p>
+                <p>I believe in constant innovation and learning, and approaching problems diligently from all angles.</p>
+                <p></p>
             </div>
             <div class ="col-md-6">
                 <img src="images/placeholder.png" class = "img-fluid" > 
@@ -69,18 +67,26 @@
 
     <!-- Experience and Education-->
 
-    <div class="container-fluid">
+    <div class="container-fluid" id = "experience">
         <div class = "row text-center padding">
             <div class="col-xs-12 col-sm-6 col-md-4">
                     <i class = "fas fa-user-graduate grow"></i>
                     <h3 class = "padding">Education</h3>
                         <h5>High School – Grades 8-9</h5>
-                        <h6>Wycliffe Independent School, Machen, Wales</h6>
+                        <h6>Wycliffe Independent School</h6>
                         <h6>2010-2011</h6>
                         <br>
                         <h5>High School – Grades 9-12</h5>
-                   
-
+                        <h6>Cannons Creek Independent School</h6>
+                        <h6>2012-2015</h6>
+                        <br>
+                        <h5>BA Comp Sci/Media Studies</h5>
+                        <h6>University of Cape Town</h6>
+                        <h6>2016-2017</h6>
+                        <br>
+                        <h5>Code Academy</h5>
+                        <h6>CodeSpace</h6>
+                        <h6>2018-present</h6>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class = "fas fa-briefcase grow"></i>
@@ -104,8 +110,14 @@
             </div>
             <div class="col-sm-12 col-md-4">
                 <i class = "fas fa-wrench grow"></i>
-                <h3>Skills</h3>
-                <p>I'm a skilled boy</p>
+                <h3 class = "padding">Skills</h3>
+                <ul>
+                    <li class = "padding">Experienced in customer-client interaction</li>
+                    <li class = "padding">Fluent in Design Thinking principles and process</li>
+                    <li class = "padding">General knowledge of ICT resources and hardware</li>
+                    <li class = "padding">Skilled in working in a team environment</li>
+                    <li class = "padding">Competent in multiple coding languages and frameworks (see tech stack)</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -140,7 +152,7 @@
     </div>
 
     <!-- Portfolio Heading -->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id = "portfolio">
         <div class = "welcome text-center row">
             <div class = "col-12">
                 <h1 class = "display-4">Portfolio</h1>
@@ -152,32 +164,22 @@
 
     <div class = "container-fluid padding">
         <div class="row padding">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class = "card">
-                    <img class = "card-img-top" src = "">
+                    <img class = "card-img-top" src = "images/todo.PNG">
                     <div class = "card-body">
-                        <h4 class = "card-title">Project 1</h4>
-                        <p class = "card-text">A description of the above project</p>
-                        <a href = "#" class = "btn btn-info">View</a>
+                        <h4 class = "card-title">To-Do App</h4>
+                        <p class = "card-text">A To-Do App programmed with PHP and Bootstrap.</p>
+                        <a href = "#" class = "btn btn-info">Github</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class = "card">
-                    <img class = "card-img-top" src = "">
+                    <img class = "card-img-top" src = "images/quiz.PNG">
                     <div class = "card-body">
-                        <h4 class = "card-title">Project 2</h4>
-                        <p class = "card-text">A description of the above project</p>
-                        <a href = "#" class = "btn btn-info">View</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class = "card">
-                    <img class = "card-img-top" src = "">
-                    <div class = "card-body">
-                        <h4 class = "card-title">Project 3</h4>
-                        <p class = "card-text">A description of the above project</p>
+                        <h4 class = "card-title">Quiz Project</h4>
+                        <p class = "card-text">Quiz Project programmed with PHP and CSS</p>
                         <a href = "#" class = "btn btn-info">View</a>
                     </div>
                 </div>
@@ -186,7 +188,7 @@
     </div>
 
     <!-- Contact Footer -->
-    <footer>
+    <footer id = "footer">
         <div class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4">
@@ -200,7 +202,7 @@
                     <i class = "fab fa-git"></i>
                     <p>Github</p>
                     <i class = "fab fa-linkedin"></i>
-                    </br>
+                    <br>
                     <a href = "https://www.linkedin.com/in/james-lewis-60726a173/">LinkedIn</a>
                 </div>
                 <div class="col-md-4">
@@ -220,12 +222,16 @@
 
     <script>
             $(document).ready(function(){
-                $('[data-toggle="tooltip"]').tooltip(); 
+                $('[data-toggle="tooltip"]').tooltip();
             });
     </script>
     
+    <script src = "script.js"></script>
     <script src="pace.min.js"></script>
+    <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
+    <script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.localscroll-1.2.7-min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
