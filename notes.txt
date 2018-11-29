@@ -1,4 +1,0 @@
--- To Add
-
-    Tried adding jquery slow scroll but it refused to work despite multiple different approaches so just removed it. Will add it in later.
-    
